@@ -501,6 +501,7 @@ local function enable_alpha(conf, state)
     vim.opt_local.list = false
     vim.opt_local.spell = false
     vim.opt_local.signcolumn = 'no'
+    vim.opt_local.statuscolumn = ""
 
     if conf.opts.noautocmd then
         vim.opt.eventignore = eventignore
